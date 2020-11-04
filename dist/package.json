@@ -1,0 +1,23 @@
+{
+  "name": "优课堂",
+  "version": "1.0.0",
+  "description": "优课堂教师端(Windows)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . 'health-terminal' --platform=win32 --arch=x64  --out=./out --asar --app-version=0.0.1 --overwrite"
+  },
+  "repository": "https://uketang.com",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "7.3.1"
+  }
+}
